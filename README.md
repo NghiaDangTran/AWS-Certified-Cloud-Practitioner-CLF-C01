@@ -19,3 +19,8 @@ So what is the diferent btw ec2 and elastic beanstalk:
 `
 Amazon EC2 provides raw computing resources, and you handle setup, configuration, and management. AWS Elastic Beanstalk is a higher-level service that handles infrastructure setup, configuration, and management for you, letting you focus on just the application.
 `
+# 3) what is the cost:
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/b707c589-1bac-4465-a000-91cb2e8a5992)
+
+
+
