@@ -12,3 +12,18 @@
      - control inbound network ( from orther to the instance)
      - contol outbound network (from instance to orther)
   ![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/9e4993f4-2cbe-49d4-b498-fd2f4de9262e)
+ - can be attached to mutiple instances
+ - `Locked` down to a` region`
+ - should allow on `SSH port`
+ - >if u cant accessible (highly it is security group issue)
+### if the connection is `time out` then it is `security group issue`, when it is `connection refused` it is `application error or it's not running`
+ - all inbound is `Blocked` by default
+ - all outbound is `authorised` by default
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/fad53e5e-2ef4-4971-806b-dcadbbf400ef)
+ - classic port to know
+    - `22= SSH`
+    - `21= FTP` upload files into a file share
+    - `22 = sFTP` upload files using ssh
+    - `80 = HTTP`
+    - `443 = HTTPS`
+    -  `3389 = RDP ` (Remote Desktop Protocol) log into a Windows instance 
