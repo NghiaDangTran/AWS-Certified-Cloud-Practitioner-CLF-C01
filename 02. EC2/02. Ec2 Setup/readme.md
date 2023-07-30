@@ -11,7 +11,7 @@
      - authorised IP range Ipv4 and IPV6
      - control inbound network ( from orther to the instance)
      - contol outbound network (from instance to orther)
-  ![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/9e4993f4-2cbe-49d4-b498-fd2f4de9262e)
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/9e4993f4-2cbe-49d4-b498-fd2f4de9262e)
  - can be attached to mutiple instances
  - `Locked` down to a` region`
  - should allow on `SSH port`
@@ -89,3 +89,15 @@
   - for `short term` uninterupted workload that need to be in a specifc AZ
 
 ![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/fdded8e2-aaf8-43c4-8a27-157a354f7da6)
+
+# Shared reponsibility
+ - AWS: infrastruture
+    - isolation on physical hosts
+    - replaing faulty hardware
+    - compiance validation
+ - User:
+    - Security groups rules
+    - operating system
+    - software installed
+    - IAM roles
+    - Data security on your instance
