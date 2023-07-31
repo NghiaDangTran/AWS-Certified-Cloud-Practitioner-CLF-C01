@@ -26,3 +26,19 @@
  - Network Load Balancer (ultra-high performace allows for tcp) layer 4
  - gateway load Balancer layer 3
 ![screenshot-www udemy com-2023 07 31-15_10_20](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/3eb4b725-2d42-41e2-aaef-318f244946ae)
+
+# Auto Scaling Group
+ -  like the name scaile ec2 based on the load of website
+   -   scale out
+   -   scale in
+   -   ensure min and max ec2
+   -   auto get new one
+   -   replace unhealthy one
+ - cost saving
+## Scailing Srategies:
+ - manual
+ - Dynamic Scaling
+   - Simple/Step Scailing: cliud watch check CPU % >70 add1 <30 remove 1
+   - target Trancking Scailing, set an average number
+   - scheduled scailingL: cron based scailing
+   - predictive scailing: machine lering (good if u have predictable time based)
