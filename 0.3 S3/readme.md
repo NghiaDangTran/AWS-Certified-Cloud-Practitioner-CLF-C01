@@ -65,5 +65,7 @@
  - use where snowball to big
 # snowmobile
  - exabytes transfer
+# Stroage gateway:
+ - connect directly to on premises server
 ![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/4560eed8-8e48-45c2-8254-a4fffd12880d)
 
