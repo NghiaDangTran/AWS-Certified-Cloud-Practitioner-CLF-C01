@@ -30,3 +30,19 @@
 # S3 Replication (CRR and SRR) 
  - must be eable versioning
  - copy asynchonously to in region or cross region
+# S3 encrytion
+ - User uplaod to s3 will encrpton by AWS
+ - client side encryption before upload
+# Shared responsibility Model
+ - Aws: Infrastructure, confirguration and culnerability analysis
+ - User, versiong, bucket polices, replication
+
+# Snow Family
+ - highly sercure, portable device to collect and process data at the edge
+ - offline data transfer
+ - if it take more than a week to transfer data use snowball
+# edge computing
+ - no internet access or really slow
+# storage gate way
+ - Aws is pushing for hybrid cloud, half on premises and half on cloud
+ - 
