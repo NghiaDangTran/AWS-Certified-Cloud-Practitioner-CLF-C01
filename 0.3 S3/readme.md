@@ -52,5 +52,18 @@
 # storage gate way
  - Aws is pushing for hybrid cloud, half on premises and half on cloud
  - just need to know this connect on server into cloud
+
+# snowball Edge
+ - physical data transport or use internet
+ -  good for TBs for PBs
+   -  Edge Storage (80tb hdd)
+   -  Edge compute *42tb hdd ,28tb nvme
+# snow Cone
+ - 8tb hdd or 14tb SSD
+ - use for edge computing, storage, and data transfer
+ - small portable computing, anywhere, withstands harsh enviroment,can be online
+ - use where snowball to big
+# snowmobile
+ - exabytes transfer
 ![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/4560eed8-8e48-45c2-8254-a4fffd12880d)
 
