@@ -26,6 +26,7 @@
  - Network Load Balancer (ultra-high performace allows for tcp) layer 4
  - gateway load Balancer layer 3
 ![screenshot-www udemy com-2023 07 31-15_10_20](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/3eb4b725-2d42-41e2-aaef-318f244946ae)
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/1197cc85-fec7-4d61-86e8-c5bd93722b25)
 
 # Auto Scaling Group
  -  like the name scaile ec2 based on the load of website
