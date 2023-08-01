@@ -1,3 +1,8 @@
+# importance
+ - EBS is block
+ - EFS is file system
+ - object S3
+
 # S3 - Simple Storage Service
  - Backup
  - Disater Recovery
@@ -36,6 +41,7 @@
 # Shared responsibility Model
  - Aws: Infrastructure, confirguration and culnerability analysis
  - User, versiong, bucket polices, replication
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/253f23b0-9ecc-46e4-ac7d-2ad15f210600)
 
 # Snow Family
  - highly sercure, portable device to collect and process data at the edge
@@ -45,4 +51,6 @@
  - no internet access or really slow
 # storage gate way
  - Aws is pushing for hybrid cloud, half on premises and half on cloud
- - 
+ - just need to know this connect on server into cloud
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/4560eed8-8e48-45c2-8254-a4fffd12880d)
+
