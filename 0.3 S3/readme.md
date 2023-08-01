@@ -27,3 +27,6 @@
  - same key make version :1,2,3
  - easy to restore
 - `importance` if u delete  specific version  it will delete that version forever
+# S3 Replication (CRR and SRR) 
+ - must be eable versioning
+ - copy asynchonously to in region or cross region
