@@ -29,4 +29,17 @@ While EFS, EBS, EC2 is really good, but sometime you may want somethingmore stru
  -  and the cool thing is ato scale size, from 10GB up to 128TB
  -  20% expenssier but is more effcient too
  -  also u can take snapshot too,
-# RDS 
+# RDS Deployments
+both write operation is directly to the main db, ortherwise it read directly
+ - read Replicas:
+   - scale the `read` workload of yout Db
+   - upto 15 read replicas
+   - good for, recovery, run db report, read distribution
+ - Multi-AZ
+   - set up more clone DB in orther AZ
+   - loss prevention
+ - multi-region
+  - set in more region
+  - better local performace
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/4eea98fe-b0c0-47be-86c8-56cbed0fb795)
+
