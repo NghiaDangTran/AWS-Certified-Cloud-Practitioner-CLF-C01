@@ -38,5 +38,6 @@
  - effecient run thoundsa of computing batch jobs on aws
  - batch wull dynamically lacuh ec2 or spot instances
  - defined as Dokcer image run on ECS
-![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/6a8b13c8-731f-4cd2-942c-0b05ba9a4aea)
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/2862d250-04c5-491b-a985-4f5f89beae57)
+
 
