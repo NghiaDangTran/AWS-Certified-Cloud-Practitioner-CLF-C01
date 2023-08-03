@@ -29,3 +29,17 @@
      - single instance. developemt env
      - lb and asg good for production or pre production
      - ASG, good for non web apps
+# AWS CodeDeploy
+ - work ` hybrid` both on ec2 and on premises
+ - must have codepley agent or server
+# AWS Code Commit
+ - store code
+# AWS code build
+ - complie source code, run test, produce pre compile package
+# AWS CodePipeline
+ -- orchestra the diffrenct steps to have to code auto matically push to productipn
+ - auto push to production
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/d98b5d33-e014-4ddc-9f7d-3e7417d5afd9)
+# AWS codeArtifact
+ - like the node_modelue where u can call to code build or urself
+ - like build npm then public it and sise
