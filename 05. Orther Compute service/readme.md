@@ -1,3 +1,6 @@
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/24d3e5a6-0f2c-4a21-ae80-7bcf4768e386)
+
+
 # Docker
  - apps are packed in containers that can be run on any os
  - docker images are tored in docker repos
