@@ -32,3 +32,11 @@
  - pay per call or pay per duration
 # AMZ API Gateway
  - severless api
+ - rest api and websocker
+# Batch  
+ - fully managed batch processing
+ - effecient run thoundsa of computing batch jobs on aws
+ - batch wull dynamically lacuh ec2 or spot instances
+ - defined as Dokcer image run on ECS
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/6a8b13c8-731f-4cd2-942c-0b05ba9a4aea)
+
