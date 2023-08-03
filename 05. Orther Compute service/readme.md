@@ -40,4 +40,11 @@
  - defined as Dokcer image run on ECS
 ![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/2862d250-04c5-491b-a985-4f5f89beae57)
 
+# AMZ Lightsail
+ - virtual servers
+ - simpler alternative to using eC2,eds,elb,ebs
+ - greate for people with little cloud expreince
+ - simple web application
+ - websites
+ - high availability by no auto scaling
 
