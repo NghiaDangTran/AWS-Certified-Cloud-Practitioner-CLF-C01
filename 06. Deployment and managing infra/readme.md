@@ -1,3 +1,7 @@
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/1e7b671f-ada4-42d3-81df-e12a9d303dc4)
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/34beb739-9312-4b2f-9698-39c1ac85e6d4)
+
+
 # Cloud Formation
  - is a declarative way of outlining ur AWS
  - exp:
@@ -5,7 +9,7 @@
      - ec2 using that security group
      - a s3
      - load balncer in front of these
-  - could formaton creates thoose for u, in the right order, with the exact confirguaraion that u specify ( au to do)
+  - could formaton creates thoose for u, in the right order, with the exact confirguaraion that u specify ( auto do)
   - infrastruture as code
       - no resuorce are manually created
       - change to the infra are do as code
@@ -43,3 +47,21 @@
 # AWS codeArtifact
  - like the node_modelue where u can call to code build or urself
  - like build npm then public it and sise
+# Code Star
+ - one stop
+ - with ui quick way to get start
+# cloud9
+ - online IDE can share with mutiple preople
+# System Manger (SSM)
+ - manage EC2 and Premise system at s cale
+ - hybrid aws
+   - patching automation for enhanced compliance
+   - run commands across an entire fleet
+   - store parameter:
+   - key run command acroos server
+ - Session Manager need port 22 to acess
+# AWS OPSWorks
+ - chef and pupet help u perform server configuration automatically or repetitive actions
+ - work great with ec2 and on premies
+ - chef or pupet >>> ops work
+ - 
