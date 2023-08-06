@@ -1,3 +1,6 @@
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/dedc0781-7fe0-403b-a8de-250570fee945)
+
+
 # AMZ CLoud Watch
  - provide metric for every service in AWS
  - metric is a stat u can monitor
@@ -39,4 +42,5 @@
  - Ml service, auto code re view, application performace recomandations
      - codeGuruy reviewer: code review
      - profilers: recomand the perofrm 
- - 
+# AWS Heath Dashboard
+ - alerts and remediations guidance , when aws is ecpereiencing event that may impact u
