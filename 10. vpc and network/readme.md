@@ -1,3 +1,6 @@
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/09dc2682-7b75-40b0-9dfc-55a56b375304)
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/0465a929-12d3-4894-b41c-bb28a6df900d)
+
 # IP address in AWs
  - IPv4 -32 bit
      - ec2 instanace gets a new ip everytime u stop and then start
@@ -28,3 +31,36 @@
     - only have `allow`
     - rule in ip address and orther security group
 ![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/d6902f93-c900-4285-9729-561b439fa490)
+# VPC Flow Logs
+ - capture information about IP traffic going into ur interface
+ - vpc flow ,logs
+ - subnets
+ - elastic network interface
+    - debung connectivity
+       - subnets to internet
+       - subnets to sub nets
+       - internet to subnets
+ - save network logs from ELB, ELAStce cache, EDS, AUrora
+ - save s3,
+# VPC Peering
+ - connect 2 VPC, privately using network
+ - make them behave as if they were in the same network
+ - must have different CIDR
+ - vpc connection is not transitive, (A->B, b->c ,A not to c)
+# VPC Endpoints
+ - allow u to connect to AWS service using a private network
+ - better security and lower latecny to aws
+ - vpc endpoint Gateway: S3 and Dynamo DB
+ - vpc endpoint interfacce-> connect the rest
+# AWS PrivateLink
+ - most secure and scable way to expose service to 100s vps
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/6ddcfe8d-11fe-4667-b297-9c2e86ea0b1b)
+# Direct Connect and site to site vpn
+ - site to site -> use vpn to connect ( use customer gate way and vitual private gateway to connect)
+ - Direct Connection -> establish physcall connection btw, on premises and AWS, private network
+# Client VPN
+ - connect from ur pc using Open VPN to ur private network
+ - goes over public internet
+# Transit Gate way
+ - for having transitive peering btw thousad of vps and on premis and hub and spoke star connection
+ - keys 1000s vpc and also on premise network
