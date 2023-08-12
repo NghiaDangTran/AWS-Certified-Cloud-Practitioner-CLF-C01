@@ -42,5 +42,9 @@
  - so 2 kind of encrypt, and use encryption keys
  - KMS- key management service (hear "encryption" for aws, likly is KMS
    - manages the encrytions keys for us
-   - opt-in: EBS
-   - 
+   - opt-in: EBS ,s3 ,redshift, data warehouse
+   - automatically encryption: cloudTrail Logs, S3, Stroage Gateway
+ - AWS manages the software
+# cloudHSm
+ - HSM -phusicall server just for generate and store secret key
+ - AWS manages the hardware
