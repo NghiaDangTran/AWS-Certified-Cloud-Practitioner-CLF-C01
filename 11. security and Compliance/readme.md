@@ -36,3 +36,11 @@
  - u can inspect any direction
 # penetration Testing
  - Aws cutomers are welcome to carry out secrity assments
+# KMS & CloudHSM
+ - data as rest: on hard disk, on RDS instance, in s3 ....
+ - data in transit: being from transfer from premise to AWS
+ - so 2 kind of encrypt, and use encryption keys
+ - KMS- key management service (hear "encryption" for aws, likly is KMS
+   - manages the encrytions keys for us
+   - opt-in: EBS
+   - 
