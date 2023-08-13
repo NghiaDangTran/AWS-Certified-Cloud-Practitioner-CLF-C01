@@ -1,3 +1,6 @@
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/942b874e-ebc2-4107-aa4c-af8610691725)
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/b3f4d674-c057-4206-9845-0422d2fd74d8)
+
 # AWS Shared Responsibility Model
  - AWS responsibility - security in Cloud
      - protecting infratstruc
@@ -48,3 +51,53 @@
 # cloudHSm
  - HSM -phusicall server just for generate and store secret key
  - AWS manages the hardware
+ - Type of CMK  customer master key
+    - customer Managed CMK: user create manage and used by the customer, can eable or disable
+    - AWS managed CMK: created, managed and use on the customer behalf, use by AWS service
+    - AWS owned CMK: KMS service, application only
+    - cloudHSM keys: AWS lend hardware to u
+# ACM certificate Manager
+ - SSl/TLS certiface
+# AWS secrets Manger
+ - newer service, mean for storing secrets (like ENV)
+ - totation secret every X days
+ - secrets are encrytped using KMS
+# AWS artifact (not a service)
+ - provide customers with on demand access to AWS compliance document  and AWS agreements
+# AMZ GuardDuty
+ - ML threat discovery to protect AWS account
+  - check could trail events logs
+  - VPC flows logs
+  - can protect against crytoCurrency attack
+# AMZ inspector
+ - automated security Assessments
+ -  for EC2
+ -  for continaer images push to AMZ ECR ( container regfister)
+ -  lambda functions
+# ANZ config
+ - help s with auditing and recording compliance of ur AWS resources
+ - record configurations and changes over time
+ - mainly just to check critcal compliance
+# AMZ Macie
+ - ML and patterm matching to discover and protect ur sensitive data in AWS
+ - detect sensitive data
+# AWS security Hub
+ - central security tools, manage across several AWS accounts and automate security checks
+# AMZ Detective
+ - deeper analysis to isolate the root case and take action of security issue, ML and gprahs
+# AWS Abuse
+ - suspected AWS resources used for abusive or illegal purpos
+ - Spam, Port Scanning, Dos, DDos, instrusion attempts, hosting
+# Root User Preivileges
+ - Never use Root
+ - **chane account settings (account anme, email, user ,)**
+ - tax invoices
+ - **close AWs**
+ - restore IAm
+ - **change or cancel AWS supprot plan**
+ - **register a seller in reserved**
+ - configure S3 bucket to eabnle MFa
+# IAM access Analyzer
+ - findout which reoruces are shared externally
+ - **defind Zone of Trust** = AWS acocnt or AWS org
+ - recomend what should be the IAM for them
