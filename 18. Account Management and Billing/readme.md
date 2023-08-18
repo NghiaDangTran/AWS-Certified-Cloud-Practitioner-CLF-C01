@@ -1,3 +1,7 @@
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/181c802a-d343-411f-8f6f-1166d4912b16)
+![image](https://github.com/NghiaDangTran/AWS-Certified-Cloud-Practitioner-CLF-C01/assets/33323750/b499ed03-5c4a-409c-9526-d84e4f395aaf)
+
+
 # AWS organizations
  - global service
  - to manage `multiple AWS account`
